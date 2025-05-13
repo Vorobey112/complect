@@ -9,7 +9,7 @@ import Otdel from './components/Otdel/Otdel';
 import Develop from './components/Develop/Develop';
 import Banks from './components/Banks/Banks';
 import Footer from './components/Footer/Footer';
-import { MainTest } from './components/Test/mainTest';
+import { MainTest } from './components/Test/MainTest';
 import { MemoryRouter } from 'react-router-dom';
 
 function App() {
