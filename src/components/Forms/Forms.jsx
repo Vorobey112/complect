@@ -1,5 +1,8 @@
 import styles from './Forms.module.css';
 
+import form1 from '../../../public/form1.png';
+import form2 from '../../../public/form2.png';
+
 function Forms() {
     return(
         <div className={styles.container}>
@@ -11,7 +14,7 @@ function Forms() {
                 <a href="#">Узнать стоимость</a>
                 </div>
                 <div className={styles.cardImage}>
-                    <img src="./public/form1.png" alt="form1" />
+                    <img src={form1} alt="form1" />
                 </div>
             </div>
             <div className={styles.formsCard}>
@@ -21,7 +24,7 @@ function Forms() {
                 <a href="#">Узнать стоимость</a>
                 </div>
                 <div className={styles.cardImage}>
-                    <img src="./public/form2.png" alt="form1" />
+                    <img src={form2} alt="form1" />
                 </div>
             </div>
         </div>

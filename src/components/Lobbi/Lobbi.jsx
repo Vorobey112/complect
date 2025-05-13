@@ -1,5 +1,10 @@
 import styles from './Lobbi.module.css';
 
+import lobbi1 from '../../../public/lobbi1.png';
+import lobbi2 from '../../../public/lobbi2.png';
+import lobbi3 from '../../../public/lobbi3.png';
+import lobbi4 from '../../../public/lobbi4.png';
+
 function Lobbi() {
     return (
         <div className={styles.container}>
@@ -17,8 +22,8 @@ function Lobbi() {
                 </ul>
                 </div>
                 <div className={styles.lobbiImages}>
-                    <img src="./public/lobbi1.png" alt="lobbi1" />
-                    <img src="./public/lobbi2.png" alt="lobbi2" />
+                    <img src={lobbi1} alt="lobbi1" />
+                    <img src={lobbi2} alt="lobbi2" />
                 </div>
             </div>
 
@@ -33,8 +38,8 @@ function Lobbi() {
                 </ul>
                 </div>
                 <div className={styles.lobbiImages}>
-                    <img src="./public/lobbi3.png" alt="lobbi1" />
-                    <img src="./public/lobbi4.png" alt="lobbi2" />
+                    <img src={lobbi3} alt="lobbi3" />
+                    <img src={lobbi4} alt="lobbi4" />
                 </div>
             </div>
         </div>

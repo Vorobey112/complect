@@ -1,3 +1,5 @@
+import 
+
 .container {
     height: 50rem;
     display: flex;
@@ -23,7 +25,7 @@
     font-weight: 700;
     margin-bottom: 0;
     padding-left: 3rem;
-    background: url('./public/riverLogo.png') no-repeat left center;
+    background: url('/riverLogo.png') no-repeat left center;
     background-size: 30px 30px;
     line-height: 1.5;
 }

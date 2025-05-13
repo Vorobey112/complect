@@ -1,11 +1,17 @@
 import styles from './Header.module.css';
 
+import logo1 from '../../../public/logo1.png';
+import logo2 from '../../../public/logo2.png';
+import mainImg from '../../../public/mainImg.png';
+import features from '../../../public/features.png';
+
+
 function Header() {
   return (
     <div className={styles.container}>
     <header className={styles.header}>
       <div>
-        <img className={styles.logo} src="./public/logo1.png" alt="logo" />
+        <img className={styles.logo} src={logo1} alt="logo" />
         <p>Официальный партнер
         АО «Дубайские Дома»</p> 
       </div>
@@ -13,12 +19,12 @@ function Header() {
     </header>
     <main>
         <div className={styles.titleCard}>
-        <img src="./public/logo2.png" alt="logo" />
+        <img src={logo2} alt="logo" />
         <h1 className={styles.headerTitle}>Жизнь
         в статусном районе Грозного</h1>
         <p className={styles.headertext}>Жилой комплекс бизнес-класса в 10 минутах от Берката</p>
-        <img className={styles.mainLogo} src="./public/mainImg.png" alt="main  " />
-            <img className={styles.featureLogo} src="./public/features.png" alt="" />
+        <img className={styles.mainLogo} src={mainImg} alt="main  " />
+            <img className={styles.featureLogo} src={features} alt="" />
 
         </div>
 

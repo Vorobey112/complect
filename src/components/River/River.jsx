@@ -7,10 +7,14 @@ import ModalTwo from "../ModalTwo/ModalTwo";
 import 'swiper/css';
 import 'swiper/css/navigation';
 
+import river1 from '../../../public/river1.png';
+import river2 from '../../../public/river2.png';
+import river3 from '../../../public/river3.png';
+
 const images = [
-  './public/river1.png',
-  './public/river2.png',
-  './public/river3.png',
+{river1},
+{river2},
+{river3}
 ];
 
 export const River = () => {

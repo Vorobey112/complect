@@ -1,6 +1,8 @@
 import styles from './Presentation.module.css';
 import ModalOne from '../ModalOne/ModalOne';
 
+import presentationImg from '../../../public/presentationImg.png';
+
 function Presentation () {
   return (
 <div className={styles.container}>
@@ -16,7 +18,7 @@ function Presentation () {
         <p className={styles.presentationP}>Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</p>
     </div>
     <div className={styles.presentationImg}>
-        <img className={styles.presentationImage} src="./public/presentationImg.jpg" alt="pres" />
+        <img className={styles.presentationImage} src={presentationImg} alt="pres" />
     </div>
 </div>
   ); 

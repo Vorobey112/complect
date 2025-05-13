@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { Button, Modal } from 'antd';
 import styles from './ModalOne.module.css'
 
+
+import modal1 from '../../../public/modal1.png';
+
 const ModalOne = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -22,7 +25,7 @@ const ModalOne = () => {
       >
         <div className={styles.modalContainer}>
           <div className={styles.modalImg}>
-          <img className={styles.modalImage} src="./public/modal1.jpg" alt="modal" />
+          <img className={styles.modalImage} src={modal1} alt="modal" />
           </div>
           <div className={styles.modalInfo}>
             <h1 className={styles.modalTitle}>Получите подробное описание и цены на свободные планировки в кластере River Line</h1>

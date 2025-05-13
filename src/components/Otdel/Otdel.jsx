@@ -1,5 +1,8 @@
 import styles from './Otdel.module.css';
 
+import cardImg2 from '../../../public/cardImg2.png';
+import cardImg3 from '../../../public/cardImg3.png';
+
 function Otdel() {
     return(
         <div className={styles.container}>
@@ -12,7 +15,7 @@ function Otdel() {
                 <p className={styles.cardText}>Забудьте шум от «бесконечного ремонта» соседей и лифт, декорированный защитными материалами</p>
                 </div>
                 <div className={styles.cardImage}>
-                    <img src="./public/cardImg2.png" alt="card2" />
+                    <img src={cardImg2} alt="card2" />
                 </div>
                 </div>
                 <div className={styles.card}>
@@ -21,7 +24,7 @@ function Otdel() {
                 <p className={styles.cardText}>Благодаря оптовым закупкам застройщика, вы получаете возможность сэкономитьна стоимости ремонта</p>
                 </div>
                 <div className={styles.cardImage}>
-                    <img src="./public/cardImg3.png" alt="card3" />
+                    <img src={cardImg3} alt="card3" />
                 </div>
                 </div>
             </div>

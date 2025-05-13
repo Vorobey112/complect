@@ -1,5 +1,8 @@
 import styles from './Footer.module.css';
 
+import footerMap from '../../../public/footerMap.png';
+
+
 function Footer() {
     return(
         <div className={styles.container}>
@@ -19,7 +22,7 @@ function Footer() {
              </div>
 
              <div className={styles.footerImage}>
-                <img src="./public/footerMap.png" alt="Map" />
+                <img src={footerMap} alt="Map" />
              </div>
         </div>
     )
