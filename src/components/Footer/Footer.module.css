@@ -1,0 +1,19 @@
+.container {
+    font-family: 'TT Travels Trl', sans-serif;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.item{
+    display: flex;
+    gap: 5rem;
+}

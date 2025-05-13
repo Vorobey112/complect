@@ -1,0 +1,45 @@
+.container {
+    font-family: 'TT Travels Trl', sans-serif;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.titleCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+
+.mainLogo {
+    height: 50rem;
+    width: 90rem;
+}
+
+.featureLogo{
+    max-width: 60rem;
+    margin-top: 10rem;
+}
+
+.headerTitle{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.headertext{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+  
+

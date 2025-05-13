@@ -1,0 +1,40 @@
+.container {
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'TT Travels Trl', sans-serif;
+    background-color: #1F2057;
+    color: #fff;
+
+}
+
+.swiper{ 
+    width: 100%;
+    max-width: 1200px;
+}
+
+.riverImage {
+    height: 30rem;
+}
+
+.riverTitle {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-left: 3rem;
+    background: url('./src/assets/riverLogo.png') no-repeat left center;
+    background-size: 30px 30px;
+    line-height: 1.5;
+}
+
+.riverText {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.riverInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}

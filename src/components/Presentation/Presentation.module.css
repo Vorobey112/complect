@@ -1,0 +1,25 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1200px;
+    margin-top: 5rem;
+    width: 70%;
+    font-family: 'TT Travels Trl', sans-serif;
+}
+
+.presentationText {
+    color: #773844;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.presentationTitle {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.presentationItem {
+    font-size: 20px;
+    font-weight: 400;
+}
+

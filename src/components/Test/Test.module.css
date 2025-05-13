@@ -1,0 +1,29 @@
+.container {
+    font-family: 'TT Travels Trl', sans-serif;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 5rem;
+    background-color: #A0A747;
+}
+
+
+.testTitle {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.testText {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.testButton {
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+}
