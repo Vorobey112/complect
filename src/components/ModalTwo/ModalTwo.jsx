@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, Modal } from 'antd';
 import styles from './ModalTwo.module.css'
 
-import modal2 from '../../../public/modal2.png';
+import modal2 from '../../../public/modal2.jpg';
 
 const ModalTwo = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

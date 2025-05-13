@@ -3,7 +3,7 @@ import { Button, Modal } from 'antd';
 import styles from './ModalOne.module.css'
 
 
-import modal1 from '../../../public/modal1.png';
+import modal1 from '../../../public/modal1.jpg';
 
 const ModalOne = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
