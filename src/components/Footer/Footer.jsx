@@ -5,7 +5,7 @@ function Footer() {
         <div className={styles.container}>
              <div className={styles.footerInfo}>
                 <h2 className={styles.footerTitle}>Жилой комплекс «West Garden» — все преимущества жизни на природе</h2>
-                <img src="./src/assets/footerLogo.png" alt="footer" />
+                <img src="./public/footerLogo.png" alt="footer" />
                 <div className={styles.item}>
                     <p className={styles.itemText}>Офис продаж</p>
                     <p className={styles.itemText}>Москва, Локал наб. 2/4,
@@ -19,7 +19,7 @@ function Footer() {
              </div>
 
              <div className={styles.footerImage}>
-                <img src="./src/assets/footerMap.png" alt="Map" />
+                <img src="./public/footerMap.png" alt="Map" />
              </div>
         </div>
     )

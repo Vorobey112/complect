@@ -22,7 +22,7 @@ const ModalTwo = () => {
       >
         <div className={styles.modalContainer}>
           <div className={styles.modalImg}>
-          <img className={styles.modalImage} src="./src/assets/modal2.jpg" alt="modal" />
+          <img className={styles.modalImage} src="./public/modal2.jpg" alt="modal" />
           </div>
           <div className={styles.modalInfo}>
             <h1 className={styles.modalTitle}>Получите дизайн-буклет с подробным описанием отделки светлого интерьера</h1>

@@ -23,7 +23,7 @@
     font-weight: 700;
     margin-bottom: 0;
     padding-left: 3rem;
-    background: url('./src/assets/riverLogo.png') no-repeat left center;
+    background: url('./public/riverLogo.png') no-repeat left center;
     background-size: 30px 30px;
     line-height: 1.5;
 }

@@ -8,9 +8,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 const images = [
-  './src/assets/river1.png',
-  './src/assets/river2.png',
-  './src/assets/river3.png',
+  './public/river1.png',
+  './public/river2.png',
+  './public/river3.png',
 ];
 
 export const River = () => {

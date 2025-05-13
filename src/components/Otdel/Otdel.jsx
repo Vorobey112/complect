@@ -12,7 +12,7 @@ function Otdel() {
                 <p className={styles.cardText}>Забудьте шум от «бесконечного ремонта» соседей и лифт, декорированный защитными материалами</p>
                 </div>
                 <div className={styles.cardImage}>
-                    <img src="./src/assets/cardImg2.png" alt="card2" />
+                    <img src="./public/cardImg2.png" alt="card2" />
                 </div>
                 </div>
                 <div className={styles.card}>
@@ -21,7 +21,7 @@ function Otdel() {
                 <p className={styles.cardText}>Благодаря оптовым закупкам застройщика, вы получаете возможность сэкономитьна стоимости ремонта</p>
                 </div>
                 <div className={styles.cardImage}>
-                    <img src="./src/assets/cardImg3.png" alt="card3" />
+                    <img src="./public/cardImg3.png" alt="card3" />
                 </div>
                 </div>
             </div>

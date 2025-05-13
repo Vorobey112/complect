@@ -5,7 +5,7 @@ function Header() {
     <div className={styles.container}>
     <header className={styles.header}>
       <div>
-        <img className={styles.logo} src="./src/assets/logo1.png" alt="logo" />
+        <img className={styles.logo} src="./public/logo1.png" alt="logo" />
         <p>Официальный партнер
         АО «Дубайские Дома»</p> 
       </div>
@@ -13,12 +13,12 @@ function Header() {
     </header>
     <main>
         <div className={styles.titleCard}>
-        <img src="./src/assets/logo2.png" alt="logo" />
+        <img src="./public/logo2.png" alt="logo" />
         <h1 className={styles.headerTitle}>Жизнь
         в статусном районе Грозного</h1>
         <p className={styles.headertext}>Жилой комплекс бизнес-класса в 10 минутах от Берката</p>
-        <img className={styles.mainLogo} src="./src/assets/mainImg.png" alt="main  " />
-            <img className={styles.featureLogo} src="./src/assets/features.png" alt="" />
+        <img className={styles.mainLogo} src="./public/mainImg.png" alt="main  " />
+            <img className={styles.featureLogo} src="./public/features.png" alt="" />
 
         </div>
 

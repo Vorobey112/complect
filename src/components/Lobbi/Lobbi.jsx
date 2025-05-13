@@ -17,8 +17,8 @@ function Lobbi() {
                 </ul>
                 </div>
                 <div className={styles.lobbiImages}>
-                    <img src="./src/assets/lobbi1.png" alt="lobbi1" />
-                    <img src="./src/assets/lobbi2.png" alt="lobbi2" />
+                    <img src="./public/lobbi1.png" alt="lobbi1" />
+                    <img src="./public/lobbi2.png" alt="lobbi2" />
                 </div>
             </div>
 
@@ -33,8 +33,8 @@ function Lobbi() {
                 </ul>
                 </div>
                 <div className={styles.lobbiImages}>
-                    <img src="./src/assets/lobbi3.png" alt="lobbi1" />
-                    <img src="./src/assets/lobbi4.png" alt="lobbi2" />
+                    <img src="./public/lobbi3.png" alt="lobbi1" />
+                    <img src="./public/lobbi4.png" alt="lobbi2" />
                 </div>
             </div>
         </div>

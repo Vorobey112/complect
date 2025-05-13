@@ -11,7 +11,7 @@ function Forms() {
                 <a href="#">Узнать стоимость</a>
                 </div>
                 <div className={styles.cardImage}>
-                    <img src="./src/assets/form1.png" alt="form1" />
+                    <img src="./public/form1.png" alt="form1" />
                 </div>
             </div>
             <div className={styles.formsCard}>
@@ -21,7 +21,7 @@ function Forms() {
                 <a href="#">Узнать стоимость</a>
                 </div>
                 <div className={styles.cardImage}>
-                    <img src="./src/assets/form2.png" alt="form1" />
+                    <img src="./public/form2.png" alt="form1" />
                 </div>
             </div>
         </div>

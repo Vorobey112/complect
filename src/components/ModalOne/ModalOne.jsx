@@ -22,7 +22,7 @@ const ModalOne = () => {
       >
         <div className={styles.modalContainer}>
           <div className={styles.modalImg}>
-          <img className={styles.modalImage} src="./src/assets/modal1.jpg" alt="modal" />
+          <img className={styles.modalImage} src="./public/modal1.jpg" alt="modal" />
           </div>
           <div className={styles.modalInfo}>
             <h1 className={styles.modalTitle}>Получите подробное описание и цены на свободные планировки в кластере River Line</h1>

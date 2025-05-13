@@ -16,7 +16,7 @@ function Presentation () {
         <p className={styles.presentationP}>Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</p>
     </div>
     <div className={styles.presentationImg}>
-        <img className={styles.presentationImage} src="./src/assets/presentationImg.jpg" alt="pres" />
+        <img className={styles.presentationImage} src="./public/presentationImg.jpg" alt="pres" />
     </div>
 </div>
   ); 

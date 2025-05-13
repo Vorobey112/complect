@@ -6,9 +6,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import styles from './View.module.css';
 
-import slide1 from '../../assets/slide1.png';
-import slide2 from '../../assets/slide2.png';
-import slide3 from '../../assets/slide3.png';
+import slide1 from '../../../public/slide1.png';
+import slide2 from '../../../public/slide2.png';
+import slide3 from '../../../public/slide3.png';
 
 const images = [slide1, slide2, slide3];
 
