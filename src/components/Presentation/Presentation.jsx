@@ -1,7 +1,7 @@
 import styles from './Presentation.module.css';
 import ModalOne from '../ModalOne/ModalOne';
 
-import presentationImg from '../../../public/presentationImg.jpj';
+import presentationImg from '../../../public/presentationImg.jpg';
 
 function Presentation () {
   return (
