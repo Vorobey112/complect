@@ -10,7 +10,7 @@ import Develop from './components/Develop/Develop';
 import Banks from './components/Banks/Banks';
 import Footer from './components/Footer/Footer';
 import { MainTest } from './components/Test/MainTest';
-import { MemoryRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   return (
@@ -23,9 +23,9 @@ function App() {
       <Lobbi />
       <Forms />
 
-      <MemoryRouter>
+      <HashRouter>
       <MainTest />
-      </MemoryRouter>
+      </HashRouter>
       
       <Otdel />
       <Develop />
