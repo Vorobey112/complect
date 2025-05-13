@@ -1,8 +1,10 @@
 import styles from './Develop.module.css';
 
+import inteco from '../../../public/inteco.png'
+
 function Develop() {
     return(
-        <div className={styles.container}>
+        <div className={styles.container} style={{ backgroundImage: `url(${inteco})`}}>
             
             <div className={styles.titleContainer}>
                 <div className={styles.title}>
