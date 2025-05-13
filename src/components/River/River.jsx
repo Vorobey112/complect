@@ -12,9 +12,9 @@ import river2 from '../../../public/river2.png';
 import river3 from '../../../public/river3.png';
 
 const images = [
-{river1},
-{river2},
-{river3}
+river1,
+river2,
+river3
 ];
 
 export const River = () => {
